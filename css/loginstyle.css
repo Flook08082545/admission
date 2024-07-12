@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Athiti', sans-serif;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.style_under{
+
+}
+.img{
+    float: left;
+}
+.register{
+    margin: 10px;
+    float: left;
+}
+.buttom-submit{
+    background-color: #006b67; 
+    color: #fff;
+}
+.buttom-submit:hover{
+    background-color: #b2ba1c;
+    transition: 0.2s;
+    color: #fff;
+    box-shadow: 0px 0 5px #808080;
+}
+#inputNationalID{
+    border-radius: 50px;
+}
+.radio{
+    margin: 0 30px;
+    margin-top: 20px;
+}
+@media only screen and (max-width:600px) {
+    .img{
+        float: none;
+        text-align: center;
+    }
+    .register{
+        text-align: left;
+        float: none;
+    }
+}
